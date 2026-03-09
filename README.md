@@ -1,7 +1,7 @@
 # Console-Based Tic-Tac-Toe in Java
 
 A simple, interactive 2-player Tic-Tac-Toe game built in Java. It runs entirely in the terminal and automatically handles user turns, input validation, and win/draw conditions.
-===
+---
 
 #  Tic-Tac-Toe Java Code Logic Explained
 
@@ -51,7 +51,7 @@ At the end of a successful turn, the game uses a **Ternary Operator** to switch 
 ```java
 currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
 ```
-+++++
+---
 ## How to Play
 
 The game uses a 0-8 numbered system to place your 'X' or 'O'. When prompted to enter a position, use the following grid mapping as your guide:
@@ -61,7 +61,8 @@ The game uses a 0-8 numbered system to place your 'X' or 'O'. When prompted to e
  ---|---|---
   3 | 4 | 5
  ---|---|---
-  6 | 7 | 8```
+  6 | 7 | 8
+```
 
 
 ## Features
