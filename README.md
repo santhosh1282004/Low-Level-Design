@@ -1,3 +1,8 @@
+# Console-Based Tic-Tac-Toe in Java
+
+A simple, interactive 2-player Tic-Tac-Toe game built in Java. It runs entirely in the terminal and automatically handles user turns, input validation, and win/draw conditions.
+===
+
 #  Tic-Tac-Toe Java Code Logic Explained
 
 This document breaks down the core logic behind the console-based Tic-Tac-Toe game. The code is highly optimized, particularly in how it handles grid coordinates and win checking.
@@ -46,19 +51,7 @@ At the end of a successful turn, the game uses a **Ternary Operator** to switch 
 ```java
 currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
 ```
-
-# Console-Based Tic-Tac-Toe in Java
-
-A simple, interactive 2-player Tic-Tac-Toe game built in Java. It runs entirely in the terminal and automatically handles user turns, input validation, and win/draw conditions.
-
-## Features
-
-* **Classic 2-Player Gameplay:** Pass-and-play style between Player 'X' and Player 'O'.
-* **Real-Time Board Display:** The board updates and prints to the console after every valid move.
-* **Input Validation:** Prevents players from overwriting existing moves or entering out-of-bounds positions.
-* **Win/Draw Detection:** Automatically checks rows, columns, and diagonals for a winner, or declares a draw if all 9 spaces are filled.
-* **Quick Exit:** Enter `999` at any time to immediately end the game.
-
++++++
 ## How to Play
 
 The game uses a 0-8 numbered system to place your 'X' or 'O'. When prompted to enter a position, use the following grid mapping as your guide:
@@ -69,3 +62,13 @@ The game uses a 0-8 numbered system to place your 'X' or 'O'. When prompted to e
   3 | 4 | 5
  ---|---|---
   6 | 7 | 8```
+
+
+## Features
+
+* **Classic 2-Player Gameplay:** Pass-and-play style between Player 'X' and Player 'O'.
+* **Real-Time Board Display:** The board updates and prints to the console after every valid move.
+* **Input Validation:** Prevents players from overwriting existing moves or entering out-of-bounds positions.
+* **Win/Draw Detection:** Automatically checks rows, columns, and diagonals for a winner, or declares a draw if all 9 spaces are filled.
+* **Quick Exit:** Enter `999` at any time to immediately end the game.
+
